@@ -5,9 +5,19 @@
 
 body {
   background: $wtf;
-  color: #fff;
-  display: flex;
   align-items: center;
   justify-content: center;
   min-height: 100vh;
+}
+
+.item {
+  width: 800px;
+  height: 200px;
+  margin: 50px auto;
+  padding-top: 75px;
+  background: rgba(255,85,0, .7);
+  text-align: center;
+  color: #4E4C48;
+  font-size: 1.5em;
+  border-radius: 15px;
 }
